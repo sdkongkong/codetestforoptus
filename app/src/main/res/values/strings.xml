@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CodeTestOptus</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section:%1$d</string>
+    <string name="scenario_one">scerario one</string>
+    <string name="scenario_two">scenario two</string>
+    <string name="navigation_view_header_title">OPTUS</string>
+    <string name="textview1">TextView1</string>
+    <string name="textview2">TextView2</string>
+    <string name="textview3">TextView3</string>
+</resources>
