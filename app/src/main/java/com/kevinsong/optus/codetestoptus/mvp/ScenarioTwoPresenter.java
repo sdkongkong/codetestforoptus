@@ -14,9 +14,9 @@ import rx.subscriptions.CompositeSubscription;
 
 public class ScenarioTwoPresenter implements ScenarioTwoContract.Presenter {
     private final String TAG = ScenarioTwoPresenter.this.getClass().getSimpleName();
-    ScenarioTwoContract.View mView;
-    VenuesApiService mVenuesApiService;
-    private CompositeSubscription mSubScriptions;
+    private final ScenarioTwoContract.View mView;
+    private final VenuesApiService mVenuesApiService;
+    private final CompositeSubscription mSubScriptions;
 
     public ScenarioTwoPresenter(ScenarioTwoContract.View view, VenuesApiService apiService) {
         mSubScriptions = new CompositeSubscription();

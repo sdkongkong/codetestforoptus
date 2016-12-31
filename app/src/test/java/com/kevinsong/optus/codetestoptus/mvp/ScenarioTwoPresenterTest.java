@@ -32,7 +32,7 @@ public class ScenarioTwoPresenterTest {
     @Mock
     VenuesApiService mVenuesApiService;
 
-    ScenarioTwoContract.Presenter mPresenter;
+    private ScenarioTwoContract.Presenter mPresenter;
 
     @Captor
     ArgumentCaptor<List<Venue>> mCaptor;

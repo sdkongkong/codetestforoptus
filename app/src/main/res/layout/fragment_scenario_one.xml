@@ -5,7 +5,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <HorizontalScrollView
@@ -22,35 +22,35 @@
                     style="@style/scenario_one_header_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="item 1" />
+                    android:text="@string/item_1" />
 
                 <TextView
                     android:id="@+id/tv_item2"
                     style="@style/scenario_one_header_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="item 2" />
+                    android:text="@string/item_2" />
 
                 <TextView
                     android:id="@+id/tv_item3"
                     style="@style/scenario_one_header_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="item 3" />
+                    android:text="@string/item_3" />
 
                 <TextView
                     android:id="@+id/tv_item4"
                     style="@style/scenario_one_header_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="item 4" />
+                    android:text="@string/item_4" />
 
                 <TextView
                     android:id="@+id/tv_item5"
                     style="@style/scenario_one_header_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="item 5" />
+                    android:text="@string/item_5" />
             </LinearLayout>
         </HorizontalScrollView>
 
@@ -129,21 +129,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="red" />
+                android:text="@string/red" />
 
             <Button
                 android:id="@+id/btn_color_green"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="green" />
+                android:text="@string/green" />
 
             <Button
                 android:id="@+id/btn_color_blue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="blue" />
+                android:text="@string/blue" />
         </LinearLayout>
 
     </LinearLayout>

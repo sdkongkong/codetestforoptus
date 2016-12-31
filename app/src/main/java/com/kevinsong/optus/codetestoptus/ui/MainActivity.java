@@ -16,8 +16,8 @@ import com.kevinsong.optus.codetestoptus.R;
 public class MainActivity extends AppCompatActivity {
 
 
-    ScenarioTwoFragment mFragmentTwo;
-    ScenarioOneFragment mFragmentOne;
+    private ScenarioTwoFragment mFragmentTwo;
+    private ScenarioOneFragment mFragmentOne;
     private DrawerLayout mDrawerLayout;
 
     @Override

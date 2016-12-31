@@ -12,7 +12,7 @@ public class ApiClient {
 
     private static ApiClient sInstance = null;
 
-    private VenuesApiService mVenuesApiService;
+    private final VenuesApiService mVenuesApiService;
 
     private ApiClient() {
         HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();

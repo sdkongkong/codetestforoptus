@@ -8,4 +8,15 @@
     <string name="textview1">TextView1</string>
     <string name="textview2">TextView2</string>
     <string name="textview3">TextView3</string>
+    <string name="cd_optus_logo">optus logo</string>
+    <string name="item_1">item 1</string>
+    <string name="item_2">item 2</string>
+    <string name="item_3">item 3</string>
+    <string name="item_4">item 4</string>
+    <string name="item_5">item 5</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="mode_of_transport">Mode of Transport:</string>
+    <string name="navigate">Navigate</string>
 </resources>
